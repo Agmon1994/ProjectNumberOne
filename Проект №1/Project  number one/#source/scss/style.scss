@@ -1,0 +1,111 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+	font-family: Lato;
+
+}
+
+.image__body {
+	min-width: 1920px;
+	min-height: 1080px;
+	padding-top: 165px;
+	background-image: url('../img/about/fon_number_one.png');
+	background-repeat: no-repeat;
+		.logo__open {
+			background-image: url("../img/about/Logo.png");
+			background-repeat: no-repeat;
+			background-position: 49%;
+			min-width: 195px;
+			min-height: 123px;
+		}
+		.text__open {
+			line-height: 40px;
+			letter-spacing: 0.16em;
+			color: #ffffff;
+			text-align: center;
+			
+			.text__open__title {
+				padding-top: 159px;
+				font-size: 34px;
+				font-weight: 1000;
+				text-transform: uppercase;
+				letter-spacing: 0.16em;
+			}
+			.text__open__text {
+				position: relative;
+				font-size: 26px;
+				font-weight: 400;
+				text-transform: none;
+			}
+			&:after {
+				content:'';
+					position: absolute;
+					width: 105px;
+					height: 2px;
+					background-color: #ffffff;
+					left: 47.55%;
+					margin: 51px 0px 0px 0px;
+			}
+		}
+		.button__text {
+			:hover {
+				box-shadow: 0px -5px 42px #ffffff;
+			}
+		.button__open {
+			margin: 227px 13% 0px 45%;
+			text-align: center;
+			width: 182px;
+			height: 47px;
+			border: 2px solid #ffffff;
+
+			.button__read {
+				display: block;
+				text-transform: uppercase;
+				font-size: 16px;
+				line-height: 1.2;
+				font-weight: 400;
+				letter-spacing: 0.06em;
+				color: #ffffff;
+				padding-top: 6%;
+				padding-bottom: 6%;
+			}
+		}
+	}
+}
+
+.menu_body {
+	height: 58px;
+	width: 1920px;
+
+		.menu {
+			padding: 22px 35% 22px 35%;
+			ul {
+				display: flex;
+				li a {
+					display: block;
+					padding: 15px 30px 15px 40px;
+					text-align: center;
+					font-size: 15px;
+					line-height: 1.2;
+					font-weight: 400;
+					color: #3c3c3c;
+					text-transform: uppercase;
+						:hover {
+							color:#ada074;
+							font-weight: 700
+						}
+				}
+			}
+		}
+		
+}
+
+
+
+
+
+
+
